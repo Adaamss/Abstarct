@@ -292,6 +292,38 @@ padding-top: 15px;
     width: 100%;
     margin-bottom: 80px;
 }
+  }
 
+
+  @media all and (max-width:550px){
+    .searchbox{
+        width: 350px;
+    }
+
+    .flech{
+        height:25px;
+        width:25px;
+        position: absolute;top: 15px; left:305px;
+        color:#4C5FD5; ;
+    }
+
+    .texthelp{
+        font-size: 45px;
+    }
+    .header{
+        padding: 0 20px 0 20px;
+
+    }
+
+    .helpcenter{
+        font-size: 23px;
+    }
+    .searchbtn{
+        margin: 0px;
+        margin-top: 15px;
+        display:flex ;
+        height: 25px;
+        width: 25px;
+    }
 
   }
