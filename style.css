@@ -311,8 +311,7 @@ padding-top: 15px;
         font-size: 45px;
     }
     .header{
-        padding: 0 20px 0 20px;
-
+        padding: 0 20px 0 20px; 
     }
 
     .helpcenter{
@@ -325,5 +324,61 @@ padding-top: 15px;
         height: 25px;
         width: 25px;
     }
+.sandwich{
+    margin: 0;
+    margin-top:15px ;
+    margin-left: 10px;
+    display:flex ;
+    height: 20px;
+    width: 20px;
 
+}
+  }
+
+  @media all and (max-width:550px){
+    .searchbox{
+        width: 250px;
+    }
+    .flech{
+        height:25px;
+        width:25px;
+        position: absolute;top: 15px; left:205px;
+        color:#4C5FD5; ;
+    }
+    .texthelp{
+        font-size: 35px;
+    }
+    .header{
+        padding: 0 15px 0 15px; 
+    }
+     .abstractlogo{
+       
+            height: 32px;
+            width: 100px;
+     }
+     .helpcenter{
+        font-size: 20px;
+     }
+
+     
+     .mangementLogo > img:nth-child(1){
+        width: 70px;
+        height: 70px;
+        margin: 10px;
+    }
+
+    .managementTitle{
+        font-size: 25px;
+    }
+    .managementText{
+        font-size: 20px;
+    }
+    .managementLearnMore{
+        font-size: 15px;
+    }
+    .management{
+        margin:20px auto;
+        width: 100%;
+        
+    }
   }
