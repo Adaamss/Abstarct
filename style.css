@@ -89,8 +89,6 @@
     padding: 115px 30px 115px 30px;
     justify-content: center;
     align-items: center;
-    
-
 }
 .texthelp{
     font-size: 80px;
@@ -380,5 +378,10 @@ padding-top: 15px;
         margin:20px auto;
         width: 100%;
         
+    }
+
+    .help{
+        height: 300px;
+        padding: 90px 30px 90px 30px;
     }
   }
