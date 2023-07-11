@@ -259,6 +259,9 @@ margin-bottom: 20px;
     .footer{
         margin: 0 auto;
     }
+    .columnDetails{
+        width: 30%;
+    }
   }
 
   @media all and (max-width:750px){
@@ -383,5 +386,8 @@ padding-top: 15px;
     .help{
         height: 300px;
         padding: 90px 30px 90px 30px;
+    }
+    .columnDetails{
+        width: 100%;
     }
   }
