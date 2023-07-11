@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 0 ;
     padding: 0;
     box-sizing: border-box;
 }
@@ -119,7 +119,7 @@
     outline: none;
 }
 .flech{
-    height: 25px;
+    height:25px;
     width:25px;
     position: absolute;top: 15px; left:685px;
     color:#4C5FD5; ;
@@ -261,4 +261,37 @@ margin-bottom: 20px;
     .footer{
         margin: 0 auto;
     }
+  }
+
+  @media all and (max-width:750px){
+.texthelp{
+    font-size: 50px;
+}
+.searchbox{
+    width: 500px;
+}
+.flech{
+    height:25px;
+    width:25px;
+    position: absolute;top: 15px; left:455px;
+    color:#4C5FD5; ;
+}
+
+.header{
+    padding: 0 30px 0 30px;
+}
+
+.rightside{
+padding: 0px;
+padding-top: 15px;
+}
+
+.managementItem{
+    display: flex;
+    flex-direction: row;    
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+
   }
