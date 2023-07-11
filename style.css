@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 88px;
+    background-color: black;
+ display: flex;
+ padding: 0 60px 0 60px;
+ justify-content: space-between;
+}
+
+.leftside{
+    height: 100%;
+    display: flex;
+    padding: 30px 0 30px 0;
+    
+}
+.rightside{
+    display: flex;
+    padding: 20px 45px 20px 45px;
+}
+.abstractlogo{
+    height: 32px;
+    width: 126px;
+}
+.line{
+    margin: 0 10px 0 10px;
+    background-color: white;
+    width: 2px;
+    height: 100%
+}
+.helpcenter{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 24px;
+    
+}
+
+.submit{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 24px;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(19, 18, 18);
+    margin-right: 20px;
+    padding: 10px 20px 10px 20px;
+    height: fit-content;
+    
+
+    
+  
+    
+}
+.signin{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 27px;
+    border-width: 1px;
+    border-color: white;
+   
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4C5FD5;
+    padding: 10px 25px 10px 25px; 
+    height: fit-content;
+
+}
+.signin:hover{
+    background-color: white;
+    color: black;
+}
+
+.help{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    background-color:#dadbf1 ;
+    padding: 115px 30px 115px 30px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.texthelp{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+.search{
+    position: relative;
+}
+.searchbox{
+    height: 60px;
+    width: 720px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    font-size: 24px;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.searchbox::placeholder{
+    color: black;
+    opacity: 100;
+}
+.searchbox:focus {
+    outline: none;
+}
+.flech{
+    height: 25px;
+    width:25px;
+    position: absolute;top: 15px; left:685px;
+    color:#4C5FD5; ;
+}
+
+.searchbox:hover,
+.searchbox:hover + .flech .arrow-svg {
+  border-color: #4C5FD5;
+  fill: #4C5FD5;
+}
+
+.management{
+    height: fit-content;
+   display: flex;
+   margin-top: 100px;
+   padding: 0px 20px 0 20px;
+   width: 85%;
+  flex-wrap: wrap;
+  margin: 100px  auto;
+  
+}
+.managementItem{
+    display: flex;
+    flex-direction: row;    
+    width: 50%;
+    margin-bottom: 80px;
+    
+}
+
+.managementBox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.mangementLogo > img:nth-child(1){
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.managementTitle{
+    font-size: 30px;
+    font-weight: 900;
+    margin:20px 0 20px 0 ;
+    
+}
+.managementText{
+    margin-bottom: 10px;
+    font-size: 28px;
+    width: 100%;
+    
+}
+
+.managementLearnMore{
+    font-size: 20px;
+    font-weight:400 ;
+    color: rgb(76, 95, 213);
+ 
+}
+
+.managementLearnMore:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer{
+    background-color: black;
+    padding: 50px 100px 50px 100px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 140px;
+    flex-wrap: wrap;
+    
+}
+.columnDetails{
+    font-weight: bold;
+    color: white; 
+}
+
+
+h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer p{
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+
+}
+.footer p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  #legal{
+margin-bottom: 20px;
+  }
+  #Contact{
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .sandwich{
+    display:none ;
+}
+.searchbtn{
+    display: none;
+}
+
+
+
+  @media all and (max-width:1200px){
+   .submit ,.signin{
+    display: none;
+   }
+
+    .sandwich{
+       margin: 15px;
+        display:flex ;
+        height: 25px;
+        width: 25px;
+    }
+    .searchbtn{
+        margin: 15px;
+        display:flex ;
+        height: 25px;
+        width: 25px;
+    }
+    .rightside{
+        padding: 15px;
+    }
+
+    .footer{
+        margin: 0 auto;
+    }
+  }
