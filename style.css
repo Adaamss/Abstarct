@@ -27,6 +27,10 @@
 
 }
 
+.floadtingButton:hover{
+    cursor: pointer;
+}
+
 .leftside{
     height: 100%;
     display: flex;
@@ -145,6 +149,7 @@ fill: gray;
 .searchbox:focus {
     outline: none;
 }
+
 .flech{
     height:25px;
     width:25px;
