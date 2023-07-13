@@ -41,12 +41,16 @@
     height: 32px;
     width: 126px;
 }
-
+.abstractlogo:hover{
+    cursor: pointer;
+}
 .abstractlogo:hover .abstract-logo-mark{
 fill: gray;
+
 }
 .abstractlogo:hover .abstract-logo-wordmark{
     fill: gray;
+   
 }
 .line{
     margin: 0 10px 0 10px;
