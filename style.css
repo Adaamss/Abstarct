@@ -1,8 +1,19 @@
 *{
+    scroll-behavior: smooth; /* scroll speed can be only manipulated  by js or adding a library */
     margin: 0 ;
     padding: 0;
     box-sizing: border-box;
 }
+
+a{
+    text-decoration: none;
+}
+
+a:visited { 
+    text-decoration: none; 
+    color: white;
+   }
+   
 
 .header{
     height: 88px;
