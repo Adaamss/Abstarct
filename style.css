@@ -125,7 +125,13 @@ fill: gray;
     color: black;
     cursor: pointer;
 }
+.sandwich:hover{
+    cursor: pointer;
+}
 
+.searchbtn:hover{
+    cursor: pointer;
+}
 .help{
     display: flex;
     flex-direction: column;
