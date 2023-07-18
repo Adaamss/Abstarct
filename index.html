@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+    
 
     <title>Abstract</title>
   </head>
@@ -72,12 +72,19 @@
           <img src="Assets/search.png" alt="" />
         </div>
         <div class="sandwich">
-          <img src="Assets/hamburger.png" alt="" />
+          <img id="sandwichButtonDom" src="Assets/hamburger.png" alt="" />
         </div>
         <div class="submit">Submit a request</div>
         <div class="signin">Sign in</div>
       </div>
     </div>
+
+    <div class="overlayContainer">
+      <div class="overlayItem">Submit a request</div>
+      <div class="horizentalLine"></div>
+      <div class="overlayItem">Signin</div>
+    </div>
+
 
     <div class="help">
       <div class="texthelp">How can we help?</div>
@@ -258,5 +265,6 @@
         <p>info@abstract.com</p>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -1,4 +1,17 @@
 window.onload = function () {
   window.scrollTo(0, 0)
 }
-// forcing the page to go up when it reloads bch tabda abzber
+// forcing the page to go up when it reloads bch tabda ahsen
+const overlayContainer = document.getElementsByClassName("overlayContainer")[0]
+console.log(overlayContainer)
+
+const sandwichButtonMenu = document.getElementById("sandwichButtonDom")
+console.log(sandwichButtonMenu)
+
+sandwichButtonMenu.addEventListener("click", function () {
+  if (overlayContainer.style.display == "none") {
+    overlayContainer.style.display = "block"
+  } else {
+    overlayContainer.style.display = "none"
+  }
+})

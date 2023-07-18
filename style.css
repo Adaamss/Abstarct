@@ -53,6 +53,36 @@ a:visited {
     display: flex;
     padding: 20px 45px 20px 45px;
 }
+
+.overlayContainer{
+   
+    margin-top: 1px;
+    background-color: black;
+    color:white;
+ position: absolute;
+ top: 50;
+  left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 32px 16px ;
+    justify-content: center;
+    display: none;
+    
+}
+
+.horizentalLine{
+    width:400px ;
+    height:0.2px ;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.overlayItem{
+    font-size: 28px;
+    font-weight: 500;
+    padding: 16px;
+}
+
 .abstractlogo{
     height: 32px;
     width: 126px;
@@ -285,6 +315,12 @@ margin-bottom: 20px;
     display: none;
 }
 
+
+@media all and (min-width:1200px){
+    .overlayContainer{
+        display: none;
+    }
+}
 
 
   @media all and (max-width:1200px){
