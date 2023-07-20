@@ -9,9 +9,5 @@ const sandwichButtonMenu = document.getElementById("sandwichButtonDom")
 console.log(sandwichButtonMenu)
 
 sandwichButtonMenu.addEventListener("click", function () {
-  if (overlayContainer.style.display == "none") {
-    overlayContainer.style.display = "block"
-  } else {
-    overlayContainer.style.display = "none"
-  }
+  overlayContainer.classList.toggle("hidden")
 })
