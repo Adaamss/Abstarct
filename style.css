@@ -483,4 +483,13 @@ padding-top: 15px;
     .columnDetails{
         width: 100%;
     }
+    .overlayContainer{
+        padding: 20px 16px ;
+
+    }
+    .overlayItem{
+        font-size: 24px;
+        font-weight: 400;
+        padding: 10px;
+    }
   }
