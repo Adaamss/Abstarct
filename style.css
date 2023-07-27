@@ -24,6 +24,8 @@ a:visited {
  justify-content: space-between;
 }
 
+
+
 .floadtingButton{
     height: 50px;
     width:100px;
@@ -43,6 +45,36 @@ a:visited {
     cursor: pointer;
 }
 
+.alertPopup {
+    position: fixed;
+    top: 13%;
+    left: 40%;
+    width: 300px;
+    max-width: 80%;
+    padding: 20px;
+    background-color: #4C5FD5;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .alertPopup span {
+
+    margin-bottom: 12px;
+    color: white;
+  }
+  
+  #leavo {
+    padding: 10px 20px;
+    color: #4C5FD5;
+    
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+ 
 .leftside{
     height: 100%;
     display: flex;

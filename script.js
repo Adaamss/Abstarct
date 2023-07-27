@@ -11,3 +11,16 @@ console.log(sandwichButtonMenu)
 sandwichButtonMenu.addEventListener("click", function () {
   overlayContainer.classList.toggle("hidden")
 })
+
+const helpPopup = document.getElementById("myPopup")
+const leavo = document.getElementById("leavo")
+const popBox = document.getElementById("alertBox")
+console.log(helpPopup)
+
+leavo.addEventListener("click", function () {
+  popBox.classList.toggle("hidden")
+})
+
+helpPopup.addEventListener("click", function () {
+  popBox.classList.toggle("hidden")
+})
